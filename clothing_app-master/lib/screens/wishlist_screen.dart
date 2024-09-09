@@ -24,7 +24,7 @@ class WishlistScreen extends StatelessWidget {
         appBar: const CustomScreenAppBar(
           title: "My Wishlist",
         ),
-        bottomNavigationBar: CustomNavbar(),
+        bottomNavigationBar: const CustomNavbar(),
         body: SingleChildScrollView(
           child: Column(
             children: [

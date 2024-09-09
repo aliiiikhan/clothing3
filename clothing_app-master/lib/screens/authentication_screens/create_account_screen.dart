@@ -103,6 +103,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                   ),
                   Checkbox(
                       value: isChecked,
+                      // ignore: avoid_types_as_parameter_names
                       onChanged: (bool) {
                         setState(() {
                           isChecked = !isChecked;

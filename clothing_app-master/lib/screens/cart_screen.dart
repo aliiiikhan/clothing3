@@ -12,7 +12,7 @@ class CartScreen extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: const CustomScreenAppBar(title: "My Cart"),
-      bottomNavigationBar: CustomNavbar(),
+      bottomNavigationBar: const CustomNavbar(),
       body: Container(
         color: Colors.amber,
         height: size.height * 0.1,
@@ -30,7 +30,7 @@ class CartScreen extends StatelessWidget {
                 const Text("Brown Jacket"),
                 const Text("Size: XL"),
                 const Text("\$83.97"),
-                Spacer(),
+                const Spacer(),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
